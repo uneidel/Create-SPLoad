@@ -1,20 +1,21 @@
-Create SP load 
-
+#Create SP load 
+___
 
 This commandline Program creates Word Documents from reuter files. 
 
-The following CmdLine Options are available:
+###The following CmdLine Options are available:
 
-CreateSPLoad setupsp
-Setups SharePoint Lists
+**CreateSPLoad setupsp** - Setups SharePoint Lists 
 
-CreateSPLoad file c:\reuterfile.json
+
+**CreateSPLoad file c:\reuterfile.json**
 Uploads a single reuterfile (containing multiple Entries) to the library
 
-CreateSPLoad folder c:\reuterfiles\
+**CreateSPLoad folder c:\reuterfiles\**
 Upload a folder containing multiple Jsons to a library
 
 
+____
 
 The MIT License (MIT)
 
